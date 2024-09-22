@@ -10,19 +10,31 @@ Bunch of hacking tools
 # FEATURES
 <table>
   <tr>
-    <th>Nama Tool</th>
-    <th>Deskripsi</th>
+    <th>   Name   </th>
+    <th>   YES/NO   </th>
   </tr>
   <tr>
-    <td>Tool 1</td>
-    <td>Deskripsi tool 1.</td>
+    <td>Basic Stresser</td>
+    <td>   ✅   </td>
   </tr>
   <tr>
-    <td>Tool 2</td>
-    <td>Deskripsi tool 2.</td>
+    <td>Basic Bypass</td>
+    <td>   ✅   </td>
   </tr>
   <tr>
-    <td>Tool 3</td>
-    <td>Deskripsi tool 3.</td>
+    <td>Search Lookup Information</td>
+    <td>   ✅   </td>
+  </tr>
+  <tr>
+    <td>   Other   </td>
+    <td>   ✅   </td>
   </tr>
 </table>
+
+
+# INSTALLATION
+> For windows users
+- Requires python 3.10 or later
+- Double click on ailiscript.bat
+
+  
