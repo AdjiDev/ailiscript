@@ -57,7 +57,7 @@ Bunch of hacking tools
    ```
 
 # Whats is new?
-> Initial release
+> 2 New features subdo finder, wifimaps
 
 # Disclaimer
 > This program is intended for educational and testing purposes only.                                                       
