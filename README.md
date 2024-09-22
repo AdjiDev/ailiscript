@@ -1,7 +1,7 @@
 # AILISCRIPT
 Bunch of hacking tools
-[![Version](https://img.shields.io/badge/Telegram-brightgreen)](https://t.me/rizkykianadji)
-[![My sites](https://img.shields.io/badge/green)](https://ailibytes.xyz)
+[![Telegram](https://img.shields.io/badge/Telegram-brightgreen)](https://t.me/rizkykianadji)
+[![My Site](https://img.shields.io/badge/My%20Site-green)](https://ailibytes.xyz)
 
 
 ![screenshot](https://github.com/AdjiDev/ailiscript/blob/main/screenshot.png?raw=true)
