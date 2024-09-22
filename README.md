@@ -31,10 +31,20 @@ Bunch of hacking tools
   </tr>
 </table>
 
-
 # INSTALLATION
-> For windows users
-- Requires python 3.10 or later
-- Double click on ailiscript.bat
 
-  
+> For Windows users
+1 Requires Python 3.10 or later
+2 Clone this repo
+```bash
+git clone https://github.com/AdjiDev/ailiscript.git
+```
+3 Double click on `ailiscript.bat`
+
+> For Linux/Unix users
+1. Ensure you have Python 3.10 or later installed.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/AdjiDev/ailiscript.git
+   ```
+
