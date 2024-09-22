@@ -4,6 +4,7 @@ import sys
 from colorama import init, Style
 from lib.menu import data1, data2, data3, data4
 #from lib.ngetik import adji
+from plugins import subdo
 from plugins.basic_v1 import send_req_basic_v1
 from plugins.basic_v2 import send_requests_with_timeout_v2
 from plugins.basic_v3 import send_requests_with_proxies_and_ua_v3
@@ -18,6 +19,7 @@ from plugins.tls_advanced import send_requests_with_timeout_tls_v3
 from plugins.traceroute import traceroute_lookup
 from plugins.geolocation import search_maps, lat_lon_lookup
 from plugins.whois import whois_lookup
+from plugins.wifimap import scan_wifi
 
 init(autoreset=True)
 
@@ -311,6 +313,21 @@ _  ___ |_/ /  _  /____/ /  ____/ // /___  _  _, _/__/ /  _  ____/_  / # Licensed
             elif shell_input.lower() in ["cls", "clear"]:
                 clear()
                 main()
+
+            elif shell_input.lower() in ["wifimap", "wifi"]:
+                scan_wifi()
+            
+            elif shell_input.lower().startswith("subdo"):
+                try:
+                    parts = shell_input.split()
+                    if len(parts) == 2:
+                        domain = parts[1]
+                        result = subdo(domain)
+                        print(result)
+                    else:
+                        print("Usage: subdo <domain>")
+                except Exception as e:
+                    print(f"Error: {e}")
 
             elif shell_input.lower().startswith("basicv2") or shell_input.lower().startswith("bv2"):
                 try:
