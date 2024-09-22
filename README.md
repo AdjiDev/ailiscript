@@ -7,6 +7,7 @@ Bunch of hacking tools
 
 ![Screenshot](https://github.com/AdjiDev/ailiscript/blob/main/screenshot.png?raw=true)
 
+# FEATURES
 <table>
   <tr>
     <th>Nama Tool</th>
