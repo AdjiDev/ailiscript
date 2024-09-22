@@ -56,7 +56,10 @@ Bunch of hacking tools
    ./ailiscript.sh
    ```
 
-   # Disclaimer
-   > This program is intended for educational and testing purposes only.                                                       
-   Unauthorized use of this tool may violate laws and regulations.
+# Whats is new?
+> Initial release
+
+# Disclaimer
+> This program is intended for educational and testing purposes only.                                                       
+Unauthorized use of this tool may violate laws and regulations.
 
