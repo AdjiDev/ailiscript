@@ -2,3 +2,4 @@ cloudscraper
 requests
 colorama
 bs4
+pandas
